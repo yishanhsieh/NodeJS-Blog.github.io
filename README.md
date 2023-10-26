@@ -2,7 +2,6 @@
 
 This repo is used for learning to building a NodeJs blog and how to run it on a free host. I am really appreciate Raddy's efforts for the 10 videos and open source code. 
 
-85.799 g protein
 
 ## Video playlists:
 1. [Part1](https://www.youtube.com/watch?v=-foo92lFIto&list=PL4cUxeGkcC9hAJ-ARcYq_z6lDZV7kT1xD) : Import npm and all the other required libraries. Build up a HelloWorld page.
