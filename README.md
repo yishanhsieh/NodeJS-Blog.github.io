@@ -68,7 +68,6 @@ const PORT = process.env.PORT || 3000;
 - add IP address on MongoDB atlas: including your Cyclic web ip and 0.0.0.0 (connect everywhere)
 - It should work.
 
-##MongoDB 
 
 ----------------Know more about Raddy-------------
 ## Design Files
