@@ -3,20 +3,23 @@
 This repo is used for learning to building a NodeJs blog and how to run it on a free host. I am really appreciate Raddy's efforts for the 10 videos and open source code. 
 
 ## Video playlists:
-1. 
+1. [Part1](https://www.youtube.com/watch?v=-foo92lFIto&list=PL4cUxeGkcC9hAJ-ARcYq_z6lDZV7kT1xD) : Import npm and all the other required libraries. Build up a HelloWorld page.
+2. [Part2](https://www.youtube.com/watch?v=gv3FFnOdCIo&list=PL4cUxeGkcC9hAJ-ARcYq_z6lDZV7kT1xD&index=2): render basic personal information through main.ejs, which renders index.ejs and about.ejs.
+3. [Part3](https://www.youtube.com/watch?v=MruZEGPibC4&list=PL4cUxeGkcC9hAJ-ARcYq_z6lDZV7kT1xD&index=3): Layout design on style.css
+4. [Part4](https://www.youtube.com/watch?v=FjuctFNN0FA&list=PL4cUxeGkcC9hAJ-ARcYq_z6lDZV7kT1xD&index=4): build up search.ejs, connect to MongoDB, create database schema.
+5. [Part5](https://www.youtube.com/watch?v=Cz-2QzkuCHo): insert Post data in MongoDB to index.ejs
 
 
 ## Installation
-To install and run this project - install dependencies using npm and then start your server:
-
+- To install and run this project - install dependencies using npm and then start your server:
 ```
 $ npm install
 $ npm run dev
 ```
 
-## You need:
+- (option) VScode EJS language support: beautify the display of EJS
 - NodeJs
-- Database (MongoDB) Free Cluster (https://www.mongodb.com/) sign up by your Google account
+- Database (MongoDB) Free Cluster (https://www.mongodb.com/) sign up by your Google account. You can reference from Part 4 video.
 - after git clone, you have to import all the libraries used in the project under the project folder.
 ```
 npm i bcrypt connect-mongo cookie-parser dotenv ejs express express-ejs-layouts express-session jsonwebtoken method-override mongoose
@@ -26,6 +29,7 @@ npm i bcrypt connect-mongo cookie-parser dotenv ejs express express-ejs-layouts 
 npm i nodemon --save-dev
 ```
 
+
 - Create a .env file to store your credentials. After you sign up MongoDB, you can copy a url like below.
 
 ```
@@ -34,6 +38,7 @@ JWT_SECRET=MySecretBlog
 ```
 
 - try to run on local. The default port is 5000, but you can change if it is occupied.
+
 
 ## Host on Cyclic
 - change the start script in package.json. It should be "node app.js"
